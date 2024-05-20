@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Sugar Buzz</title>
+    <link rel="icon" href="images/sugarbuzzlogotransparent.jpg.png" type="image/png">
+    <style>
+        /* Add your custom CSS styles here */
+        .container {
+            display: flex;
+            height: 100vh;
+        }
+
+        .side-nav {
+            background-color: #f8f9fa;
+            width: 200px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .main-content {
+            flex: 1;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="side-nav">
+        <div class="logo">
+            <img src="images/sugarbuzzlogotransparent.jpg.png" alt="">
+        </div>
+        <div class="links">
+            <a href="index.html">HOME</a>
+            <a href="gallery.html">GALLERY</a>
+            <a href="contact.html">CONTACT</a>
+        </div>
+        <div class="social-media">
+            <a href="https://www.facebook.com/sugarbuzzes" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-facebook" style="font-size: 24px; color: black;"></i>
+            </a>
+            <a href="https://www.instagram.com/sugarbuzzes/" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-instagram" style="font-size: 24px; color: black;"></i>
+            </a>
+        </div>
+    </nav>
+    <div class="container">
+        <section class="main-content">
+            <div class="content" style="background-color: white; padding: 20px; text-align: center;">
+                <div class="main-content">
+                    <h1 data-aos="fade-right" data-aos-duration="2000">Contact US</h1>
+                    <h5 data-aos="fade-right" data-aos-duration="3000">↓</h5>
+                    <h4 data-aos="fade-right" data-aos-duration="2000" data-aos-delay="400">
+                        <div class="social-media">
+                            <a href="https://www.facebook.com/sugarbuzzes" target="_blank" rel="noopener noreferrer"
+                                style="text-decoration: none; color: black;">
+                                <i class="fab fa-facebook"></i>
+                                Facebook
+                            </a>
+                        </div>
+                    </h4>
+                    <h4 data-aos="fade-right" data-aos-duration="2000" data-aos-delay="900">
+                        <a href="https://www.instagram.com/sugarbuzzes/" target="_blank" rel="noopener noreferrer"
+                            style="text-decoration: none; color: black;">
+                            <i class="fab fa-instagram" style="font-size: 24px;"></i>
+                            Instagram
+                        </a>
+                    </h4>
+                    <h4 data-aos="fade-right" data-aos-duration="2000" data-aos-delay="400">
+                        Email: sugarbuzz@gmail.com
+                    </h4>
+                    <p data-aos="flip-down" data-aos-duration="2000" data-aos-delay="600">
+                        Have questions or want to place an order? Reach out to us!
+                    </p>
+                    <div class="order">
+                        <h3 data-aos="zoom-in-right" data-aos-duration="2000" data-aos-delay="800"></h3>
+                    </div>
+                </div>
+                <div class="image">
+                    <img src="images/placeorder.png" data-aos="flip-down" data-aos-duration="2000">
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 1
+        });
+    </script>
+</body>
+
+</html>

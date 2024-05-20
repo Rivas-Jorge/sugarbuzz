@@ -20,7 +20,7 @@
             <div class="links">
                 <a href="index.html">HOME</a>
                 <a href="gallery.html">GALLERY</a>
-                <a href="contact.html">CONTACT</a>
+                <a href="contact.html">CONTACT US</a>
             </div>
             <div class="social-media">
                 <a href="https://www.facebook.com/sugarbuzzes" target="_blank" rel="noopener noreferrer"
@@ -35,43 +35,31 @@
         </div>
     </nav>
     <section>
-        <div class="content" style="background-color: white; padding: 20px; text-align: center;">
-            <div class="main-content">
-                <h1 data-aos="fade-right" data-aos-duration="2000">Contact US</h1>
-                <h5 data-aos="fade-right" data-aos-duration="3000">↓</h5>
-                <h4 data-aos="fade-right" data-aos-duration="2000" data-aos-delay="400">
-                    <div class="social-media">
-                        <a href="https://www.facebook.com/sugarbuzzes" target="_blank" rel="noopener noreferrer"
-                            style="text-decoration: none; color: black;">
-                            <i class="fab fa-facebook"></i>
-                            Facebook
-                        </a>
-                    </div>
-                </h4>
-                <h4 data-aos="fade-right" data-aos-duration="2000" data-aos-delay="900">
-                    <a href="https://www.instagram.com/sugarbuzzes/" target="_blank" rel="noopener noreferrer"
-                        style="text-decoration: none; color: black;">
-                        <i class="fab fa-instagram" style="font-size: 24px;"></i>
-                        Instagram
-                    </a>
-                </h4>
-                <h4 data-aos="fade-right" data-aos-duration="2000" data-aos-delay="400">
-                    Email: sugarbuzz@gmail.com
-                </h4>
-                <p data-aos="flip-down" data-aos-duration="2000" data-aos-delay="600">
-                    Have questions or want to place an order? Reach out to us!
-                </p>
-                <div class="order">
-                    <h3 data-aos="zoom-in-right" data-aos-duration="2000" data-aos-delay="800"></h3>
-                </div>
-            </div>
-            <div class="image">
-                <img src="images/placeorder.png" data-aos="flip-down" data-aos-duration="2000">
+        <div class="centered-div">
+            <div class="container">
+                <section class="contact-section" data-aos="zoom-in" data-aos-duration="2000">
+                    <h2>Contact Us</h2>
+                    <form>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name"><br><br>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email"><br><br>
+                        <label for="message">Message:</label><br>
+                        <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+                        <input type="submit" value="Submit">
+                    </form>
+                </section>
             </div>
         </div>
-
     </section>
-
+    <footer>
+        <p>&copy; 2024 Sugar Buzz llc. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="terms.html">Terms and Conditions</a>
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="returns.html">Return Policy</a>
+        </div>
+    </footer>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init({
